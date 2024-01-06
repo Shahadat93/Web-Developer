@@ -14,7 +14,7 @@ a{
     font-size: 20px;
     font-weight: 700;
 }
-li button a{
+button a{
     color: #fff;
 }
 
@@ -24,6 +24,7 @@ li button a{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .site-title{
     color: #181818;
@@ -43,4 +44,22 @@ nav li{
 }
 nav li > a{
     color: #474747;
+}
+
+/* header style*/
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 200px;
+}
+.contact-btn{
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 0px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
 }
